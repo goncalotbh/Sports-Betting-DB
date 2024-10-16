@@ -1,0 +1,191 @@
+---
+- # ====== Breadcrumb: Breadcrumb ==============================
+  id: 117279866197516488955
+  identification: 
+    name: Breadcrumb
+
+  entries: 
+  - # ====== Entry: Home =========================================
+    id: 117279866302573488956
+    identification: 
+      name: Home
+      page-number: 1
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:1:&SESSION.::&DEBUG.:::'
+        page: 1 # Home
+
+  - # ====== Entry: Jogos ========================================
+    id: 117280974951030489165
+    identification: 
+      name: Jogos
+      page-number: 2
+
+    execution: 
+      sequence: 2
+
+    appearance: 
+      parent-entry: Competições # 117316809165628207041
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:2:&SESSION.::&DEBUG.:::'
+        page: 2 # VerJogos
+
+  - # ====== Entry: Estatísticas =================================
+    id: 117301080972010088487
+    identification: 
+      name: Estatísticas
+      page-number: 4
+
+    execution: 
+      sequence: 10
+
+    appearance: 
+      parent-entry: Home # 117279866302573488956
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:4:&SESSION.::&DEBUG.:::'
+        page: 4 # Estatísticas
+
+  - # ====== Entry: Equipas ======================================
+    id: 117312853256273333013
+    identification: 
+      name: Equipas
+      page-number: 12
+
+    execution: 
+      sequence: 10
+
+    appearance: 
+      parent-entry: Home # 117279866302573488956
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:12:&SESSION.::&DEBUG.:::'
+        page: 12 # Equipas
+
+  - # ====== Entry: Jogadores ====================================
+    id: 117314950898792399475
+    identification: 
+      name: Jogadores
+      page-number: 3
+
+    execution: 
+      sequence: 10
+
+    appearance: 
+      parent-entry: Equipas # 117312853256273333013
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:3:&APP_SESSION.::&DEBUG.:::'
+        page: 3 # Jogadores
+
+  - # ====== Entry: Competições ==================================
+    id: 117316809165628207041
+    identification: 
+      name: Competições
+      page-number: 14
+
+    execution: 
+      sequence: 10
+
+    appearance: 
+      parent-entry: Home # 117279866302573488956
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:14:&SESSION.::&DEBUG.:::'
+        page: 14 # Competições
+
+  - # ====== Entry: Apostas ======================================
+    id: 117722771983207488497
+    identification: 
+      name: Apostas
+      page-number: 24
+
+    execution: 
+      sequence: 10
+
+    appearance: 
+      parent-entry: Home # 117279866302573488956
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:24:&SESSION.::&DEBUG.:::'
+        page: 24 # Apostas
+
+  - # ====== Entry: Consultas Interessantes ======================
+    id: 117847843818700713242
+    identification: 
+      name: Consultas Interessantes
+      page-number: 26
+
+    execution: 
+      sequence: 10
+
+    appearance: 
+      parent-entry: Home # 117279866302573488956
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:26:&APP_SESSION.::&DEBUG.:::'
+        page: 26 # Consultas Interessantes
+
+  - # ====== Entry: Depósitos ====================================
+    id: 118028170158533352208
+    identification: 
+      name: Depósitos
+      page-number: 28
+
+    execution: 
+      sequence: 10
+
+    appearance: 
+      parent-entry: Home # 117279866302573488956
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:28:&APP_SESSION.::&DEBUG.:::'
+        page: 28 # Depósitos
+
+  - # ====== Entry: Utilizadores =================================
+    id: 118035807468523246985
+    identification: 
+      name: Utilizadores
+      page-number: 42
+
+    execution: 
+      sequence: 10
+
+    appearance: 
+      parent-entry: Home # 117279866302573488956
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:42:&APP_SESSION.::&DEBUG.:::'
+        page: 42 # Utilizadores
+
+  - # ====== Entry: Editar Jogos =================================
+    id: 118043369514020382418
+    identification: 
+      name: Editar Jogos
+      page-number: 44
+
+    execution: 
+      sequence: 10
+
+    appearance: 
+      parent-entry: Home # 117279866302573488956
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:44:&APP_SESSION.::&DEBUG.:::'
+        page: 44 # Editar Jogos
+
