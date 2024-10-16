@@ -1,0 +1,102 @@
+prompt --application/shared_components/navigation/lists/menu_de_navegação
+begin
+--   Manifest
+--     LIST: Menu de Navegação
+--   Manifest End
+wwv_flow_imp.component_begin (
+ p_version_yyyy_mm_dd=>'2024.05.31'
+,p_release=>'24.1.3'
+,p_default_workspace_id=>115819092547921539682
+,p_default_application_id=>199135
+,p_default_id_offset=>0
+,p_default_owner=>'WKSP_WBDG66'
+);
+wwv_flow_imp_shared.create_list(
+ p_id=>wwv_flow_imp.id(117279866636904488956)
+,p_name=>unistr('Menu de Navega\00E7\00E3o')
+,p_list_status=>'PUBLIC'
+,p_version_scn=>1
+);
+wwv_flow_imp_shared.create_list_item(
+ p_id=>wwv_flow_imp.id(117280968621047489158)
+,p_list_item_display_sequence=>10
+,p_list_item_link_text=>unistr('In\00EDcio')
+,p_list_item_link_target=>'f?p=&APP_ID.:1:&APP_SESSION.::&DEBUG.:::'
+,p_list_item_icon=>'fa-home'
+,p_list_item_current_type=>'TARGET_PAGE'
+);
+wwv_flow_imp_shared.create_list_item(
+ p_id=>wwv_flow_imp.id(117301080084958088486)
+,p_list_item_display_sequence=>50
+,p_list_item_link_text=>unistr('Estat\00EDsticas')
+,p_list_item_link_target=>'f?p=&APP_ID.:4:&SESSION.::&DEBUG.::::'
+,p_list_item_icon=>'fa-bar-chart'
+,p_list_item_current_type=>'COLON_DELIMITED_PAGE_LIST'
+,p_list_item_current_for_pages=>'4'
+);
+wwv_flow_imp_shared.create_list_item(
+ p_id=>wwv_flow_imp.id(117312852353131333012)
+,p_list_item_display_sequence=>60
+,p_list_item_link_text=>'Equipas'
+,p_list_item_link_target=>'f?p=&APP_ID.:12:&SESSION.::&DEBUG.::::'
+,p_list_item_icon=>'fa-users-alt'
+,p_list_item_current_type=>'COLON_DELIMITED_PAGE_LIST'
+,p_list_item_current_for_pages=>'12'
+);
+wwv_flow_imp_shared.create_list_item(
+ p_id=>wwv_flow_imp.id(117316808269143207040)
+,p_list_item_display_sequence=>80
+,p_list_item_link_text=>unistr('Competi\00E7\00F5es')
+,p_list_item_link_target=>'f?p=&APP_ID.:14:&SESSION.::&DEBUG.::::'
+,p_list_item_icon=>'fa-trophy'
+,p_list_item_current_type=>'COLON_DELIMITED_PAGE_LIST'
+,p_list_item_current_for_pages=>'14'
+);
+wwv_flow_imp_shared.create_list_item(
+ p_id=>wwv_flow_imp.id(117722771092335488496)
+,p_list_item_display_sequence=>90
+,p_list_item_link_text=>'Apostas'
+,p_list_item_link_target=>'f?p=&APP_ID.:24:&SESSION.::&DEBUG.::::'
+,p_list_item_icon=>'fa-hashtag'
+,p_list_item_current_type=>'COLON_DELIMITED_PAGE_LIST'
+,p_list_item_current_for_pages=>'24'
+);
+wwv_flow_imp_shared.create_list_item(
+ p_id=>wwv_flow_imp.id(117847842937639713240)
+,p_list_item_display_sequence=>100
+,p_list_item_link_text=>'Consultas Interessantes'
+,p_list_item_link_target=>'f?p=&APP_ID.:26:&APP_SESSION.::&DEBUG.:::'
+,p_list_item_icon=>'fa-table'
+,p_list_item_current_type=>'COLON_DELIMITED_PAGE_LIST'
+,p_list_item_current_for_pages=>'26'
+);
+wwv_flow_imp_shared.create_list_item(
+ p_id=>wwv_flow_imp.id(118028169272541352206)
+,p_list_item_display_sequence=>110
+,p_list_item_link_text=>unistr('Dep\00F3sitos')
+,p_list_item_link_target=>'f?p=&APP_ID.:28:&SESSION.::&DEBUG.::::'
+,p_list_item_icon=>'fa-credit-card'
+,p_list_item_current_type=>'COLON_DELIMITED_PAGE_LIST'
+,p_list_item_current_for_pages=>'28'
+);
+wwv_flow_imp_shared.create_list_item(
+ p_id=>wwv_flow_imp.id(118035806590664246984)
+,p_list_item_display_sequence=>120
+,p_list_item_link_text=>'Utilizadores'
+,p_list_item_link_target=>'f?p=&APP_ID.:42:&SESSION.::&DEBUG.::::'
+,p_list_item_icon=>'fa-user'
+,p_list_item_current_type=>'COLON_DELIMITED_PAGE_LIST'
+,p_list_item_current_for_pages=>'42'
+);
+wwv_flow_imp_shared.create_list_item(
+ p_id=>wwv_flow_imp.id(118043368623925382417)
+,p_list_item_display_sequence=>130
+,p_list_item_link_text=>'Editar Jogos'
+,p_list_item_link_target=>'f?p=&APP_ID.:44:&SESSION.::&DEBUG.::::'
+,p_list_item_icon=>'fa-calendar-edit'
+,p_list_item_current_type=>'COLON_DELIMITED_PAGE_LIST'
+,p_list_item_current_for_pages=>'44'
+);
+wwv_flow_imp.component_end;
+end;
+/
